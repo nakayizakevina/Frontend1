@@ -1,15 +1,27 @@
 .main-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 100px;
+    height: 100vh;
+    width: 100wh;
+}
+
+.container{
+    border-color: black solid;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .first-box{
     background-color:hsl(234, 85%, 45%);
-    width: 28%; 
-    /* height: 500px ; */
+    width: 50%; 
+    height: 100% ;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 15px;
     
 }
@@ -32,28 +44,30 @@
     height: 130px;
     text-align: center;
     margin-left: 120px;
-    padding-top: 12px;
-    padding-bottom:12px ;
+    /* padding-top: 12px; */
+    /* padding-bottom:12px ; */
     
 
 }
 
 .second-box{
     background-color: aliceblue;
-    width: 28%;
-    height: 500px;
-    gap: 5px;
+    width: 50%;
+    height: 100%;
     border-top-right-radius:15px;
     border-bottom-right-radius: 15px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
+    border-color: black solid;
 }
 
 .summa{
     color:rgb(2, 2, 36) ;
     font-size:20xxpx;
+    margin-top:20px;
     
     /* display: flex; */
     /* justify-content: center; */
@@ -73,7 +87,7 @@
     color: rgb(163, 163, 4);
     background-color:rgb(247, 247, 193) ;
     width: 250px;
-    height: 40px;
+    height: 40PX;
     border-radius: 7px;
 }
 
@@ -99,8 +113,8 @@
     height: 50px;
     background-color:rgb(2, 2, 37);
     border-radius: 20px;
-    margin-top: 20px;
-    /* margin-bottom: 20px; */
+    margin-top: 10px;
+    margin-bottom:10px;
 }
 
 .figure{
@@ -115,4 +129,6 @@
     padding-top: 6px;
 }
 
-
+.pi{
+    width: 100%;
+}
