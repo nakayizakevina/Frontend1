@@ -1,0 +1,118 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.first-box{
+    background-color:hsl(234, 85%, 45%);
+    width: 28%; 
+    /* height: 500px ; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+.text{
+    color: lavender;
+
+}
+
+.number{
+    color: white;
+    font-size:35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.circle{
+    background-color:rgb(45, 45, 122) ;
+    border-radius:70% ;
+    width: 150px;
+    height: 130px;
+    text-align: center;
+    margin-left: 120px;
+    padding-top: 12px;
+    padding-bottom:12px ;
+    
+
+}
+
+.second-box{
+    background-color: aliceblue;
+    width: 28%;
+    height: 500px;
+    gap: 5px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.summa{
+    color:rgb(2, 2, 36) ;
+    font-size:20xxpx;
+    
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.reaction{
+    color: rgb(238, 70, 70);
+    background-color: rgb(241, 227, 230);
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    font-size:large;
+    
+}
+
+.memory{
+    color: rgb(163, 163, 4);
+    background-color:rgb(247, 247, 193) ;
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.verbal{
+    color: rgb(11, 168, 11);
+    background-color: rgb(176, 209, 176);
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.visual{
+    color: rgb(23, 2, 44);
+    background-color: rgb(180, 180, 238);
+    width: 250px;
+    height:40px;
+    border-radius: 7px;
+}
+
+.button{
+    color: aliceblue;
+    width: 240px;
+    height: 50px;
+    background-color:rgb(2, 2, 37);
+    border-radius: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.figure{
+    color:rgb(2, 2, 36) ;
+}
+
+.per{
+    color: grey;
+}
+
+.pic{
+    padding-top: 6px;
+}
+
+
