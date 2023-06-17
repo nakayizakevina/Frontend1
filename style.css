@@ -19,7 +19,10 @@
 .first-box{
     background-color:hsl(234, 85%, 45%);
     width: 50%; 
-    height: 100% ;
+    height: 150% ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     /* padding: 20px; */
     border-radius: 15px;
@@ -28,7 +31,24 @@
 
 .text{
     color: lavender;
+    font-style: normal;
+    font-size: 20px;
+    font-family: sans-serif;
 
+}
+
+.great{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.pra{
+    color: lavender;
+    font-family: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* justify-content: space-between; */
 }
 
 .number{
@@ -42,8 +62,11 @@
     border-radius:70% ;
     width: 150px;
     height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    margin-left: 120px;
+    margin-left: 115px;
     /* padding-top: 12px; */
     /* padding-bottom:12px ; */
     
@@ -53,7 +76,7 @@
 .second-box{
     background-color: aliceblue;
     width: 50%;
-    height: 100%;
+    height: 150%;
     border-top-right-radius:15px;
     border-bottom-right-radius: 15px;
     display: flex;
@@ -68,6 +91,8 @@
     color:rgb(2, 2, 36) ;
     font-size:20xxpx;
     margin-top:20px;
+    display: flex;
+    justify-content: flex-start;
     
     /* display: flex; */
     /* justify-content: center; */
