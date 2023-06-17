@@ -23,6 +23,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content:space-evenly;
     text-align: center;
     /* padding: 20px; */
     border-radius: 15px;
@@ -60,18 +61,14 @@
 .circle{
     background-color:rgb(45, 45, 122) ;
     border-radius:70% ;
-    width: 150px;
-    height: 130px;
+    width: 190px;
+    height: 170px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-left: 115px;
-    /* padding-top: 12px; */
-    /* padding-bottom:12px ; */
-    
-
-}
+    margin-left: 80px;
+   }
 
 .second-box{
     background-color: aliceblue;
@@ -103,6 +100,8 @@
     background-color: rgb(241, 227, 230);
     width: 250px;
     height: 40px;
+    padding-top: 10px;
+    padding-left: 3px;
     border-radius: 7px;
     font-size:large;
     
@@ -113,6 +112,8 @@
     background-color:rgb(247, 247, 193) ;
     width: 250px;
     height: 40PX;
+    padding-top: 10px;
+    padding-left: 3px;
     border-radius: 7px;
 }
 
@@ -121,6 +122,7 @@
     background-color: rgb(176, 209, 176);
     width: 250px;
     height: 40px;
+    padding-top: 10px;
     border-radius: 7px;
 }
 
@@ -129,6 +131,7 @@
     background-color: rgb(180, 180, 238);
     width: 250px;
     height:40px;
+    padding-top: 10px;
     border-radius: 7px;
 }
 
@@ -139,6 +142,8 @@
     background-color:rgb(2, 2, 37);
     border-radius: 20px;
     margin-top: 10px;
+    font-size: 15px;
+    font-style: normal;
     margin-bottom:10px;
 }
 
@@ -148,12 +153,17 @@
 
 .per{
     color: grey;
+    
+    
 }
 
-.pic{
-    padding-top: 6px;
-}
+/* .pra{
+    padding-top: 40%;
+} */
+
 
 .pi{
     width: 100%;
+    
 }
+
